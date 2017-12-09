@@ -22,7 +22,7 @@ We expect good unit tests
 Unfortunately, you skipped Geography, and believe the earth is flat. The distance between two points can be calculated by Pythagoras’ theorem.
 
 
-# REST API Listens to XML responses and Produces Plain text response.
+# REST API Listens to XML requests and Produces Plain text response.
 
 To Book a Ride , use the below URI
 

@@ -32,15 +32,15 @@ Body -
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <customer>
 	<id>2</id>
-    <location>
-        <lattitude>20.0</lattitude>
-        <longitude>200.0</longitude>
-    </location>
-    <destLocation>
-        <lattitude>50.0</lattitude>
-        <longitude>500.0</longitude>
-    </destLocation>
-    <pinkPreferred>false</pinkPreferred>
+    <location>
+        <lattitude>20.0</lattitude>
+        <longitude>200.0</longitude>
+    </location>
+    <destLocation>
+        <lattitude>50.0</lattitude>
+        <longitude>500.0</longitude>
+    </destLocation>
+    <pinkPreferred>false</pinkPreferred>
 </customer>
 
 

@@ -58,10 +58,15 @@ public class TaxiService {
 	
 	private static double calculateRideCost(Customer customer) {
 		double totalCost = 0;
+		double pinkTaxiCost = 0;
 		double distance = getDistance(customer.getDestLocation(), customer.getLocation());
 		long currentTimeInMillis = System.currentTimeMillis();
 		long rideTimeInMillis = currentTimeInMillis - customer.getRideStartTime();
-		totalCost = (distance*2) + ((rideTimeInMillis/(1000*60))*1);	
+		if(customer.isPinkPreferred()) {
+			pinkTaxiCost = 5;
+		}
+		
+		totalCost = (distance*2) + ((rideTimeInMillis/(1000*60))*1) + pinkTaxiCost;	
 		return Math.round(totalCost);
 		
 	}
